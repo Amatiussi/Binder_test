@@ -1,6 +1,3 @@
-library(tidyverse)
-library(ggplot2)
-
 # Exemplo...
 #Criacao de uma matriz
 (A<-matrix(c(1.75,1.56,1.90,76,58,98),nrow=3,ncol=2))
