@@ -7,17 +7,7 @@ A[1,]
 A[,2]
 
 #Dimensao de uma matriz
-dim(A)
-nrow(A)
-ncol(A)
-
-#Soma de linhas e colunas de uma matriz
-rowSums(A)
-colSums(A)
-
-#Media de linhas e colunas de uma matriz
-rowMeans(A)
-round(colMeans(A),2)
+dim(A); nrow(A); ncol(A)
 
 #Transposicao
 (B<-matrix(c(6,4,1,-2,7,3),3,2))
@@ -30,3 +20,11 @@ t(C)
 
 #Diagonal de uma matriz
 diag(C)
+
+#Criacao de uma matriz diagonal
+(D<-diag(diag(C)))
+(E<-diag(c(8,-3,0,4)))
+
+#Criacao de uma matriz identidade
+(I<-diag(1,nrow=3))
+(I<-diag(3))
