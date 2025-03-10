@@ -85,7 +85,7 @@ O `Dockerfile` serve para definir e personalizar o ambiente em que o seu código
 - No campo de nome do arquivo, digite `Dockerfile`.
 - No editor de texto que aparecer, adicione o seguinte conteúdo:
   
-```yaml
+```dockerfile
 FROM rocker/binder:4.0.0
 
 # Copia o repositório para o diretório home do usuário
