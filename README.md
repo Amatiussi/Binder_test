@@ -36,7 +36,7 @@ No contexto deste tutorial, usaremos o Binder para configurar um ambiente online
 #### 2.1.1  Criar um Novo Repositório
 - No GitHub, clique no botão `"New"` no canto superior direito;
 - Dê um nome ao repositório (por exemplo, Binder_test);
-- Escolha o repositório público;
+- Escolha o repositório como público;
 - Marque a opção `"Add a README file"` (opcional);
 - Clique em `"Create repository"`.
 
@@ -117,7 +117,7 @@ Binder_test/
 ### 2.6 Criar o Link do Binder
 
 - Acesse o Binder:
-   - Vá para [Binder](https://mybinder.org/).
+   - Vá para [site](https://mybinder.org/).
  
 <p align="center">
   <img src='binder.png' width='70%' height='70%' alt="">
@@ -138,7 +138,7 @@ Binder_test/
 ## Fim! 
 Agora você sabe como configurar um repositório GitHub para compartilhar código R usando o Binder. Com essa abordagem, você pode criar ambientes interativos que permitem que outras pessoas executem seu código R diretamente no navegador, sem a necessidade de instalações locais. Isso facilita a colaboração em projetos e torna suas análises mais acessíveis e reproduzíveis.
 
-[!NOTE]
-Se precisar de mais personalizações ou encontrar algum erro, a documentação oficial do [Binder](https://mybinder.readthedocs.io/en/latest/) oferece recursos detalhados para explorar novas possibilidades.
+> [!NOTE]
+> Se precisar de mais personalizações ou encontrar algum erro, a documentação oficial do [Binder](https://mybinder.readthedocs.io/en/latest/) oferece recursos detalhados para explorar novas possibilidades.
 
 🚀 Agora é só colocar em prática e compartilhar seu código R com o mundo! 🚀
