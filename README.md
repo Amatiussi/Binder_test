@@ -99,6 +99,9 @@ RUN if [ -f install.R ]; then R --quiet -f install.R; fi
 ```
 - Clique em `"Commit changes"` para salvar o arquivo.
 
+> [!IMPORTANT]  
+> Detalhes: O Dockerfile é usado para personalizar o ambiente Docker. Ele copia o repositório para o ambiente e executa o script `install.R` para instalar as dependências.
+
 ### 2.5 Estrutura Final do Repositório
 Após seguir os passos acima, a estrutura do seu repositório deve ser semelhante a esta:
 
@@ -121,7 +124,7 @@ Binder_test/
 </p>
 
 - Insira a URL do Repositório:
-   - No campo "GitHub repository name or URL", insira a URL do seu repositório (por exemplo, https://github.com/Amatussi/Binder_test.git).
+   - No campo `"GitHub repository name or URL"`, insira a URL do seu repositório (por exemplo, https://github.com/Amatussi/Binder_test.git).
 
 - Clique em "Launch":
    - O Binder criará um ambiente interativo com base no seu repositório. Isso pode levar alguns minutos, dependendo do tamanho do repositório e das dependências.
@@ -129,9 +132,13 @@ Binder_test/
 - Compartilhe o Link:
    - Após o Binder criar o ambiente, você terá um link que pode ser compartilhado com outras pessoas. Elas poderão executar o código R diretamente no navegador.
 
+> [!IMPORTANT]  
+> `Tempo de Build`: A primeira vez que você criar o ambiente no Binder pode levar alguns minutos, pois ele precisa instalar todas as dependências. Após a primeira execução, o ambiente será armazenado em cache, tornando as execuções subsequentes mais rápidas.
 
+## Fim! 
+Agora você sabe como configurar um repositório GitHub para compartilhar código R usando o Binder. Com essa abordagem, você pode criar ambientes interativos que permitem que outras pessoas executem seu código R diretamente no navegador, sem a necessidade de instalações locais. Isso facilita a colaboração em projetos e torna suas análises mais acessíveis e reproduzíveis.
 
+[!NOTE]
+Se precisar de mais personalizações ou encontrar algum erro, a documentação oficial do [Binder](https://mybinder.readthedocs.io/en/latest/) oferece recursos detalhados para explorar novas possibilidades.
 
-
-
-
+🚀 Agora é só colocar em prática e compartilhar seu código R com o mundo! 🚀
