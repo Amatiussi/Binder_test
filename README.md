@@ -113,6 +113,21 @@ Binder_test/
 
 ### 2.6 Criar o Link do Binder
 
+- Acesse o Binder:
+   - Vá para [Binder](https://mybinder.org/).
+ 
+<p align="center">
+  <img src='binder.png' width='70%' height='70%' alt="">
+</p>
+
+- Insira a URL do Repositório:
+   - No campo "GitHub repository name or URL", insira a URL do seu repositório (por exemplo, https://github.com/Amatussi/Binder_test.git).
+
+- Clique em "Launch":
+   - O Binder criará um ambiente interativo com base no seu repositório. Isso pode levar alguns minutos, dependendo do tamanho do repositório e das dependências.
+
+- Compartilhe o Link:
+   - Após o Binder criar o ambiente, você terá um link que pode ser compartilhado com outras pessoas. Elas poderão executar o código R diretamente no navegador.
 
 
 
