@@ -60,7 +60,7 @@ O arquivo `runtime.txt` especifica a versão de uma linguagem de programação o
 - No campo de nome do arquivo, digite `runtime.txt`.
 - No editor de texto que aparecer, especifique a versão do R que você deseja usar. Por exemplo:
 
-```r
+```txt
 r-4.4.2
 ```
 - Clique em `"Commit changes"` para salvar o arquivo.
